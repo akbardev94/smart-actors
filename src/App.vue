@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <b-container fluid class="text-center">
+      <b-row align-h="center">
+        <b-col sm="6"><router-view></router-view></b-col>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FakturGaji from './components/FakturGaji'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FakturGaji
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
