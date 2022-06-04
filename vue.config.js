@@ -1,5 +1,5 @@
 module.exports = {
   devServer: {
-    proxy: 'https://dev-bos.smartlink.id',
+    proxy: 'https://boss.smartlink.id',
   }
 }

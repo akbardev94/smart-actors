@@ -16,6 +16,7 @@ export const loadFakturGaji = ({ commit }) => {
     })
 }
 
+
 export const loadRekening =  ({ commit }) =>  {
   commit('CLEAR_DATA_REKENING')
 
