@@ -63,5 +63,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "serve": "vue-cli-service serve --host localhost --port 8080 --open"
+  "serve": "vue-cli-service serve --host localhost"
 }

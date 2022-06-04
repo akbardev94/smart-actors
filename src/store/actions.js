@@ -6,15 +6,16 @@ export const loadFakturGaji = ({ commit }) => {
   Salary.get()
     .then(response => {
       let { data } = response;
-
+      
       if (data.success === true) {
         commit('INIT_FAKTUR_GAJI', data)
       }
     })
-    .catch(error => {
-      console.log(error)
+    .catch(err => {
+      console.log(err)
     })
 }
+
 
 
 export const loadRekening =  ({ commit }) =>  {
@@ -27,8 +28,8 @@ export const loadRekening =  ({ commit }) =>  {
         commit('SET_DATA_REKENING', data)
       }
     })
-    .catch(error => {
-      console.log(error)
+    .catch(err => {
+      console.log(err)
     })
 }
 
@@ -43,9 +44,9 @@ export const pembayaran = (contex, payload) => {
         contex.commit('SET_AFTERSAVE', response.data)
         resolve(response)
       })
-      .catch(error => {
-        console.log(error)
-        reject(error)
+      .catch(err => {
+        console.log(err)
+        reject(err)
       })
   })
 }
