@@ -1,7 +1,8 @@
 module.exports = {
-  devServer: {
-    proxy: 'https://boss.smartlink.id',
-  },
+  mode: 'development',
+  // devServer: {
+  //   proxy: 'https://boss.smartlink.id',
+  // },
   headers: {
     "Access-Control-Allow-Origin": "*",
   },
@@ -17,5 +18,5 @@ module.exports = {
   },
   // enable HMR
   hot: true,
-  hotOnly: true
+  hotOnly: true,
 }

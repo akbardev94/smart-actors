@@ -2,7 +2,6 @@ import Salary from '../api/Salary'
 import Bank from '../api/Bank'
 
 export const loadFakturGaji = ({ commit }) => {
-  // console.log("load")
   Salary.get()
     .then(response => {
       let { data } = response;
