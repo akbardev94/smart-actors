@@ -1,8 +1,8 @@
 {
-  "name": "test-faktur-gaji",
+  "name": "smart-actors",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "ahmad_robi <obinote@gmail.com>",
+  "description": "Challenge Project",
+  "author": "Anas M.A",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

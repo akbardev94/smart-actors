@@ -12,6 +12,7 @@ module.exports = {
     }
   },
   watchOptions: {
+    host: 'localhost',
     poll: true
   },
   // enable HMR
